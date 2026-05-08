@@ -83,23 +83,19 @@ export const strengths: string[] = [
 export const caseStudies: CaseStudy[] = [
   {
     title: "Booking & distribution integrations",
-    text:
-      "Experience building and maintaining backend flows around bookings, availability, pricing and third-party integrations, where consistency, reliability and operational stability are critical.",
+    text: "Experience building and maintaining backend flows around bookings, availability, pricing and third-party integrations, where consistency, reliability and operational stability are critical.",
   },
   {
     title: "Asynchronous batch operations",
-    text:
-      "Designed backend-oriented flows for long-running operations using queued processing, persisted status, progress feedback and resilient state handling.",
+    text: "Designed backend-oriented flows for long-running operations using queued processing, persisted status, progress feedback and resilient state handling.",
   },
   {
-    title: "B2B portal configuration",
-    text:
-      "Worked on product-facing backend and frontend features involving configuration, branding, templates, customer-specific settings and maintainable domain modelling.",
+    title: "OTA integrations in travel-tech",
+    text: "Worked on backend flows for integrating with online travel agencies and distribution partners, involving availability, pricing, bookings, API communication, data consistency, error handling and operational reliability.",
   },
   {
     title: "Observability & API logging",
-    text:
-      "Improved debugging and production visibility through structured logs, correlation IDs, error tracking and more consistent operational diagnostics.",
+    text: "Improved debugging and production visibility through structured logs, correlation IDs, error tracking and more consistent operational diagnostics.",
   },
 ];
 
