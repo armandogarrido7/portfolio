@@ -6,7 +6,7 @@ type WorkSectionProps = {
 
 export function WorkSection({ caseStudies }: WorkSectionProps) {
   return (
-    <section id="work" className="section-padding">
+    <section id="work" className="section-padding section-surface-white">
       <div className="container">
         <div className="row justify-content-between align-items-end mb-5 g-4">
           <div className="col-lg-7">

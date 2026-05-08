@@ -1,6 +1,6 @@
 export function AboutSection() {
   return (
-    <section id="about" className="section-padding">
+    <section id="about" className="section-padding section-surface-white">
       <div className="container">
         <div className="row g-5 align-items-start">
           <div className="col-lg-5">
@@ -23,8 +23,8 @@ export function AboutSection() {
               I enjoy working close to the product, understanding business
               constraints and designing backend solutions that are practical,
               maintainable and scalable. I’m especially interested in systems
-              where reliability, data consistency, observability and clean design
-              make a direct difference for users and businesses.
+              where reliability, data consistency, observability and clean
+              design make a direct difference for users and businesses.
             </p>
           </div>
         </div>

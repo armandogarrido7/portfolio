@@ -2,12 +2,11 @@ import { MdEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 
-
 export function ContactSection() {
   const showOpenToWork = false;
 
   return (
-    <section id="contact" className="section-padding bg-white">
+    <section id="contact" className="section-padding section-surface-white">
       <div className="container text-center">
         <span className="eyebrow mb-3">Contact</span>
 
@@ -16,14 +15,14 @@ export function ContactSection() {
         </h2>
 
         {showOpenToWork && (
-        <p
-          className="section-lead mx-auto mb-4"
-          style={{ maxWidth: "46rem" }}
-        >
-          I’m open to backend-focused roles where I can work on scalable systems,
-          distributed workflows, clean architecture and reliable production
-          software.
-        </p>
+          <p
+            className="section-lead mx-auto mb-4"
+            style={{ maxWidth: "46rem" }}
+          >
+            I’m open to backend-focused roles where I can work on scalable
+            systems, distributed workflows, clean architecture and reliable
+            production software.
+          </p>
         )}
 
         <div className="d-flex flex-wrap justify-content-center gap-3">

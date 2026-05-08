@@ -4,7 +4,7 @@ type HeroSectionProps = {
 
 export function HeroSection({ strengths }: HeroSectionProps) {
   return (
-    <section id="top" className="hero">
+    <section id="top" className="hero section-padding section-surface-light">
       <div className="container">
         <div className="row align-items-center g-5">
           <div className="col-lg-7">

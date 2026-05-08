@@ -6,7 +6,7 @@ type JourneySectionProps = {
 
 export function JourneySection({ journeyStops }: JourneySectionProps) {
   return (
-    <section id="journey" className="section-padding bg-white">
+    <section id="journey" className="section-padding section-surface-light">
       <div className="container">
         <div className="row justify-content-between align-items-end mb-5 g-4">
           <div className="col-lg-7">

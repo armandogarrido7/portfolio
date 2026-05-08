@@ -6,7 +6,7 @@ type TechStackSectionProps = {
 
 export function TechStackSection({ technologies }: TechStackSectionProps) {
   return (
-    <section className="section-padding bg-white">
+    <section className="section-padding section-surface-tint">
       <div className="container">
         <div className="row g-4 align-items-stretch">
           <div className="col-lg-5">
@@ -41,7 +41,6 @@ export function TechStackSection({ technologies }: TechStackSectionProps) {
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>
