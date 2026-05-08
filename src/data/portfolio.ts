@@ -82,16 +82,16 @@ export const strengths: string[] = [
 
 export const caseStudies: CaseStudy[] = [
   {
-    title: "Booking & distribution integrations",
-    text: "Experience building and maintaining backend flows around bookings, availability, pricing and third-party integrations, where consistency, reliability and operational stability are critical.",
+    title: "Travel-tech channel management",
+    text: "Worked on maintaining and expanding channel management capabilities for travel-tech businesses, supporting booking, availability, pricing, distribution and operational workflows in production.",
   },
   {
     title: "Asynchronous batch operations",
     text: "Designed backend-oriented flows for long-running operations using queued processing, persisted status, progress feedback and resilient state handling.",
   },
   {
-    title: "OTA integrations in travel-tech",
-    text: "Worked on backend flows for integrating with online travel agencies and distribution partners, involving availability, pricing, bookings, API communication, data consistency, error handling and operational reliability.",
+    title: "OTA integrations with distribution systems",
+    text: "Maintained and built backend integrations between online travel agencies and distribution systems, focusing on API communication, availability synchronization, booking flows, data consistency, error handling and operational reliability.",
   },
   {
     title: "Observability & API logging",
