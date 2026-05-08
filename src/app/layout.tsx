@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./globals.css";
+import "@/styles/portfolio.css";
 
 export const metadata: Metadata = {
   title: "Armando Garrido | Backend Software Engineer",
