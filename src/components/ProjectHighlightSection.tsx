@@ -7,34 +7,36 @@ export function ProjectHighlightSection() {
             className="row align-items-center g-4 position-relative"
             style={{ zIndex: 1 }}
           >
-            <div className="col-lg-7">
+            <div className="col-lg-8">
               <span className="eyebrow mb-3 bg-white">
-                Public project idea
+                Public project
               </span>
-              <h2 className="section-title mb-4">Ride Dispatch API</h2>
+
+              <h2 className="section-title mb-4 text-white">
+                Building something worth sharing
+              </h2>
+
               <p className="lead mb-0 text-white-50">
-                A small backend project designed to demonstrate Go, PostgreSQL,
-                Redis, Docker, background workers, tests and clean service
-                boundaries through a simplified ride request and driver
-                assignment domain.
+                I am currently preparing a public backend project to showcase
+                clean architecture, API design, asynchronous workflows,
+                testing, observability and production-oriented engineering
+                practices.
               </p>
             </div>
 
-            <div className="col-lg-5">
+            <div className="col-lg-4">
               <div className="bg-white text-dark rounded-4 p-4">
                 <h3 className="h5 fw-bold mb-3">
-                  What it would demonstrate
+                  Coming soon
                 </h3>
-                <ul className="mb-0 text-secondary">
-                  <li>REST API design</li>
-                  <li>Async processing and workers</li>
-                  <li>Database-backed state transitions</li>
-                  <li>Structured logging and tests</li>
-                  <li>Dockerized local development</li>
-                </ul>
+
+                <p className="mb-0 text-secondary">
+                  This section will include a technical project with source
+                  code, documentation, local setup instructions and an overview
+                  of the main architectural decisions.
+                </p>
               </div>
             </div>
-
           </div>
         </div>
       </div>
